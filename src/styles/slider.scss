@@ -40,36 +40,39 @@
       clear: both;
     }
     .slide {
-      height: 50vh;
+      height: 100vh;
       float: left;
       box-sizing: border-box;
       background-size: cover;
-      // background-size: auto;
+      // background-size: 100%;
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: top center;
+      background-color: bisque;
+      opacity: .8;
       &.slide1 {
-        background-image: url("../../public/Chicken-Shawarma-Final-1.jpg");
+        background-image: url("../../public/promo-1.jpg");
       }
       &.slide2 {
-        background-image: url("../../public/Chicken-Shawarma_4.jpg");
+        background-image: url("../../public/promo-2.jpg");
       }
       &.slide3 {
-        background-image: url("../../public/promo-2.webp");
+        background-image: url("../../public/promo-4.jpg");
       }
       &.slide4 {
-        background-image: url("../../public/Chicken-Shawarma_4.jpg");
+        background-image: url("../../public/vegetables.jpg");
       }
       &.slide5 {
-        background-image: url("../../public/Chicken-Shawarma_4.jpg");
+        background-image: url("../../public/spices.jpg");
       }
       img {
         display: block;
       }
       span {
         position: relative;
-        color: $color-grey-light-1;
-        top: 40%;
+        color: $color-secondary-light;
+        top: 12vh;
+        left: 1vw;
         cursor: default;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -80,12 +83,12 @@
         //This should be included for the slide to prevent
         // highlight of the images or texts when the user drags the slide.
         display: block;
-        // width: 100vw;
+        width: 50vw;
         // height: 100vh;
         // top: 12vw;
-        font-size: 7vw;
+        font-size: 4rem;
         // line-height: 100vh;
-        letter-spacing: 1vw;
+        letter-spacing: .5vw;
         font-family: Impact, Charcoal, sans-serif;
         // text-shadow: 5px 5px 0px $color-grey-dark-2;
       }
@@ -97,8 +100,9 @@ a[class|="arrow"] {
   display: block;
   top: 50%;
   margin-top: -20px;
-  width: 40px;
-  height: 40px;
+  width: 3rem;
+  height: 3rem;
+  opacity: .5;
 }
 .arrow-left {
   left: 20px;
@@ -108,6 +112,8 @@ a[class|="arrow"] {
   transition: left 0.5s;
   &:hover {
     left: 15px;
+    opacity: 1;
+
   }
 }
 .arrow-right {
@@ -118,5 +124,7 @@ a[class|="arrow"] {
   transition: right 0.5s;
   &:hover {
     right: 15px;
+    opacity: 1;
+
   }
 }
