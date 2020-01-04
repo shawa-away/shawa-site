@@ -30,11 +30,36 @@
     <div class="slider-wrapper">
       <div class="slider">
         <div class="slider-inner">
-          <div class="slide slide1"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, eos?</span></div>
-          <div class="slide slide2"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, eos?</span></div>
-          <div class="slide slide3"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, eos?</span></div>
-          <div class="slide slide4"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, eos?</span></div>
-          <div class="slide slide5"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, eos?</span></div>
+          <div class="slide slide1">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+              eos?</span
+            >
+          </div>
+          <div class="slide slide2">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+              eos?</span
+            >
+          </div>
+          <div class="slide slide3">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+              eos?</span
+            >
+          </div>
+          <div class="slide slide4">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+              eos?</span
+            >
+          </div>
+          <div class="slide slide5">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+              eos?</span
+            >
+          </div>
         </div>
       </div>
       <a class="arrow-left" href="javascript:void(0);"></a>
@@ -42,6 +67,74 @@
       <div class="dots-wrapper"></div>
     </div>
 
-    <div class="order-form"></div>
+    <div class="order-form" id="order">
+      <div class="order-icon"><i class="fas fa-utensils"></i></div>
+      <div class="form-header">
+        <i class="fas fa-shopping-cart"></i>
+        Ваш Заказ
+        <span class="order-worth">0</span>
+      </div>
+      <ul class="order-cart">
+        <li class="order-item">
+          name
+          <div class="price">3</div>
+          <button class="plus"></button>
+          <div class="number">
+            <button class="plus"><button class="del"></button></button>
+          </div>
+        </li>
+        <li class="order-item">
+          name
+          <div class="price">3</div>
+          <button class="plus"></button>
+          <div class="number">
+            <button class="plus"><button class="del"></button></button>
+          </div>
+        </li>
+        <li class="order-item">
+          name
+          <div class="price">3</div>
+          <button class="plus"></button>
+          <div class="number">
+            <button class="plus"><button class="del"></button></button>
+          </div>
+        </li>
+        <li class="order-item">
+          name
+          <div class="price">3</div>
+          <button class="plus"></button>
+          <div class="number">
+            <button class="plus"><button class="del"></button></button>
+          </div>
+        </li>
+      </ul>
+      <form action="#" class="form">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Ямя"
+            id="name"
+            required
+          />
+          <label for="name" class="form-label">Ваше ямя</label>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="telephone"
+            class="form-input"
+            placeholder="Телефон"
+            id="telephone"
+            required
+          />
+          <label for="telephone" class="form-label">Телефон</label>
+        </div>
+
+        <div class="form-group">
+          <button class="btn btn--primary">Заказать &rarr;</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

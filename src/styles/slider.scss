@@ -70,7 +70,8 @@
       }
       span {
         position: relative;
-        color: $color-secondary-light;
+        // color: $color-secondary-light;
+        color: $color-white;
         top: 12vh;
         left: 1vw;
         cursor: default;
@@ -86,9 +87,10 @@
         width: 50vw;
         // height: 100vh;
         // top: 12vw;
-        font-size: 4rem;
+        font-size: 5rem;
+        font-weight: bold;
         // line-height: 100vh;
-        letter-spacing: .5vw;
+        letter-spacing: .2rem;
         font-family: Impact, Charcoal, sans-serif;
         // text-shadow: 5px 5px 0px $color-grey-dark-2;
       }
