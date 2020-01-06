@@ -3,6 +3,8 @@
 @import "animations";
 @import "navbar";
 @import "slider";
+@import "order";
+@import "cart";
 @import "form";
 
 *,
@@ -27,4 +29,12 @@ body {
   color: $color-grey-dark-2;
   font-weight: 300;
   line-height: 1.6;
+}
+
+.mr-1 {
+  margin-right: .5rem;
+}
+
+.ml-1 {
+  margin-left: .5rem;
 }

@@ -1,59 +1,3 @@
-.order-cart {
-  position: relative;
-  z-index: 10;
-  color: #fff;
-  list-style-type: none;
-  font-weight: 600;
-  margin-top: 1rem;
-  font-size: 1.5rem;
-
-  .order-item {
-    padding: 0.75rem 1.25rem;
-    display: block;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.125);
-
-    .price, .plus, .minus, .del, .number {
-        display: inline-block;
-        margin-left: .3rem;
-    }
-  }
-}
-
-.order-form {
-  position: absolute;
-  top: 12vh;
-  right: 5vw;
-  width: 40rem;
-  height: 70vh;
-  background: rgba(54, 54, 54, 0.9);
-  // text-align: center;
-
-  .form-header {
-    color: $color-white;
-    font-size: 2.5rem;
-    font-family: sans-serif;
-    // letter-spacing: 0.5rem;
-    font-weight: bold;
-    // text-align: center;
-    padding: 1.2rem 4rem;
-    background: $color-secondary;
-    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
-
-    .order-worth {
-      float: right;
-    }
-  }
-
-  .order-icon {
-    font-size: 30rem;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    z-index: 0;
-    opacity: 0.5;
-  }
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -67,7 +11,7 @@
 //   :not(:last-child)
  {
     margin-bottom: 1rem;
-    width: 90%;
+    width: calc(100% -  2 * #{$gutter-horizontal});
   }
 
   &-input {

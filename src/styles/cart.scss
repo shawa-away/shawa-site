@@ -1,0 +1,65 @@
+.cart {
+  position: relative;
+  z-index: 10;
+  color: $color-grey-light-2;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+
+  .cart-row {
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.125);
+    padding: 1rem $gutter-horizontal;
+
+    @include clearfix;
+
+    [class^="product"] {
+      float: left;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+      }
+    }
+
+    .product-price,
+    .product-del {
+      width: calc((100% - 3 * #{$gutter-horizontal}) / 6);
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    .product-name {
+      width: calc((100% - 3 * #{$gutter-horizontal}) * 2 / 6);
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+
+
+    .product-count {
+      width: calc((100% - 3 * #{$gutter-horizontal}) * 2 / 6);
+      text-align: center;
+
+      & svg:hover {
+        color: $color-white;
+      }
+    }
+
+    .product-price {
+      text-align: center;
+
+      &::after {
+        content: " byr";
+      }
+    }
+    .product-del {
+      text-align: right;
+    }
+  }
+}

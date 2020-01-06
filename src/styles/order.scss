@@ -1,0 +1,39 @@
+.order {
+  position: relative;
+
+  &-header {
+    color: $color-white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 1.2rem 4rem;
+    background: $color-secondary;
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+
+    .order-worth {
+      float: right;
+
+      &::after {
+        content: " byr";
+      }
+    }
+  }
+
+  &-icon {
+    font-size: 30rem;
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    opacity: 0.5;
+    @include absCenter;
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    position: absolute;
+    top: 12vh;
+    right: 5vw;
+    width: 40rem;
+    height: 70vh;
+    background: rgba(54, 54, 54, 0.9);
+  }
+}
