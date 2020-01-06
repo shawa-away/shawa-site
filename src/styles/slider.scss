@@ -95,6 +95,12 @@
         // text-shadow: 5px 5px 0px $color-grey-dark-2;
       }
     }
+
+    @media only screen and (max-width: $bp-medium) {
+      .slide {
+        height: 65vh;
+      }
+    }
   }
 }
 a[class|="arrow"] {

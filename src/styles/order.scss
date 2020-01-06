@@ -1,5 +1,9 @@
 .order {
   position: relative;
+  // background-color: rgba(54, 54, 54, 0.5);
+  background-image: url(../../public/food.png);
+  background-position: 58 %4%;
+  background-repeat: repeat;
 
   &-header {
     color: $color-white;
@@ -8,7 +12,7 @@
     font-weight: bold;
     padding: 1.2rem 4rem;
     background: $color-secondary;
-    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+    clip-path: polygon(100% 0, 98% 50%, 100% 100%, 0 100%, 2% 50%, 0 0);
 
     .order-worth {
       float: right;
@@ -24,8 +28,10 @@
     width: 100%;
     text-align: center;
     z-index: 0;
-    opacity: 0.5;
+    opacity: 0.2;
     @include absCenter;
+    display: none;
+
   }
 
   @media screen and (min-width: $bp-medium) {
@@ -34,6 +40,15 @@
     right: 5vw;
     width: 40rem;
     height: 70vh;
-    background: rgba(54, 54, 54, 0.9);
+    background-color: rgba(54, 54, 54, 0.9);
+    background-image: none;
+
+    &-header {
+      clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+    }
+
+    &-icon {
+      opacity: 0.5;
+    }
   }
 }
