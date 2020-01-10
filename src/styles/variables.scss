@@ -22,8 +22,8 @@ $color-black: #000;
 
 // FONT VARIABLES
 $default-font-size: 1.6rem;
-$font-primary: sans-serif;
-$font-display: sans-serif;
+$font-primary: "Nunito", sans-serif;
+$font-display: "Oswald", sans-serif;
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; // 1200px
@@ -36,9 +36,9 @@ $gutter-horizontal: 1rem;
 
 @mixin clearfix {
   &::after {
-      content: "";
-      display: table;
-      clear: both;
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 

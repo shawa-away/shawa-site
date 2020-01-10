@@ -49,7 +49,7 @@
       background-repeat: no-repeat;
       background-position: top center;
       background-color: bisque;
-      opacity: .8;
+      opacity: 0.8;
       &.slide1 {
         background-image: url("../../public/promo-1.jpg");
       }
@@ -89,9 +89,7 @@
         // top: 12vw;
         font-size: 5rem;
         font-weight: bold;
-        // line-height: 100vh;
-        letter-spacing: .2rem;
-        font-family: Impact, Charcoal, sans-serif;
+        font-family: $font-display;
         // text-shadow: 5px 5px 0px $color-grey-dark-2;
       }
     }
@@ -99,6 +97,10 @@
     @media only screen and (max-width: $bp-medium) {
       .slide {
         height: 65vh;
+
+        span {
+          width: 70vw;
+        }
       }
     }
   }
@@ -110,7 +112,7 @@ a[class|="arrow"] {
   margin-top: -20px;
   width: 3rem;
   height: 3rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 .arrow-left {
   left: 20px;
@@ -121,7 +123,6 @@ a[class|="arrow"] {
   &:hover {
     left: 15px;
     opacity: 1;
-
   }
 }
 .arrow-right {
@@ -133,6 +134,5 @@ a[class|="arrow"] {
   &:hover {
     right: 15px;
     opacity: 1;
-
   }
 }

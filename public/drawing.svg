@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200"
-   height="65"
-   viewBox="0 0 52.916666 17.197914"
+   width="225"
+   height="70"
+   viewBox="0 0 59.531241 18.520829"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="106.43023"
-     inkscape:cy="50.922445"
+     inkscape:zoom="1.979899"
+     inkscape:cx="136.31257"
+     inkscape:cy="87.104421"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-279.8021)">
+     transform="translate(0,-278.4792)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot851"
@@ -64,7 +64,7 @@
            height="51.42857"
            x="18.571428"
            y="-59.53318" /></flowRegion><flowPara
-         id="flowPara857"></flowPara></flowRoot>    <flowRoot
+         id="flowPara857" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot859"
        style="font-style:normal;font-weight:normal;font-size:29.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -75,41 +75,37 @@
            height="51.42857"
            x="20.714285"
            y="-60.96175" /></flowRegion><flowPara
-         id="flowPara865"></flowPara></flowRoot>    <g
-       id="g997"
-       transform="translate(0,1.0583333)">
-      <rect
-         ry="1.7778037"
-         y="291.07373"
-         x="0.59260023"
-         height="4.9699101"
-         width="51.996777"
-         id="rect873"
-         style="opacity:1;fill:#fffffd;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
-      <text
-         transform="scale(0.82284569,1.2152947)"
-         id="text869"
-         y="243.12823"
-         x="4.2850556"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.37570831px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ee4f00;fill-opacity:1;stroke:none;stroke-width:0.10035936"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.37570831px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.10035936"
-           y="243.12823"
-           x="4.2850556"
-           id="tspan893"
-           sodipodi:role="line">PEOPLE LOVE SHAWERMA</tspan></text>
-      <text
-         transform="scale(0.69228101,1.4445001)"
-         id="text988"
-         y="201.05119"
-         x="38.234737"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.78792191px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.13043582;stroke-miterlimit:4;stroke-dasharray:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.78792191px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.13043582;stroke-miterlimit:4;stroke-dasharray:none"
-           y="201.05119"
-           x="38.234737"
-           id="tspan986"
-           sodipodi:role="line">Keabab Friends</tspan></text>
-    </g>
+         id="flowPara865" /></flowRoot>    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect873"
+       width="49.858624"
+       height="5.5044494"
+       x="5.0132918"
+       y="291.59753"
+       ry="1.9690155" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.42333332px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ee4f00;fill-opacity:1;stroke:#ee4f00;stroke-width:0.10035936;stroke-opacity:1"
+       x="7.9942694"
+       y="243.55923"
+       id="text869"
+       transform="scale(0.82284569,1.2152947)"><tspan
+         sodipodi:role="line"
+         id="tspan893"
+         x="7.9942694"
+         y="243.55923"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.42333332px;writing-mode:lr-tb;text-anchor:start;fill:#ee4f00;fill-opacity:1;stroke:#ee4f00;stroke-width:0.10035936;stroke-opacity:1">PEOPLE LOVE SHAWERMA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.15699196px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.17306077;stroke-miterlimit:4;stroke-dasharray:none"
+       x="43.636185"
+       y="197.06598"
+       id="text988"
+       transform="scale(0.67704202,1.4770132)"><tspan
+         sodipodi:role="line"
+         id="tspan986"
+         x="45.401756"
+         y="197.06598"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.15699196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.17306077;stroke-miterlimit:4;stroke-dasharray:none">Kebab Friends </tspan></text>
   </g>
 </svg>

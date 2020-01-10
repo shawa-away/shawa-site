@@ -19,12 +19,16 @@
     font-size: 1.5rem;
     font-family: inherit;
     color: $color-white;
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 1.5rem;
     border-radius: 2px;
     background-color: transparent;
     border: 2px solid #fff;
     display: block;
     transition: all 0.3s;
+
+    option {
+      color: $color-grey-dark-3;
+    }
 
     &:focus {
       outline: none;
